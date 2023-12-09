@@ -7,7 +7,8 @@
 	"features": {
 		"ghcr.io/shyim/devcontainers-features/bun:0": {},
 		"ghcr.io/devcontainers-community/npm-features/prettier:1": {},
-		"ghcr.io/devcontainers-community/npm-features/typescript:1": {}
+		"ghcr.io/devcontainers-community/npm-features/typescript:1": {},
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
