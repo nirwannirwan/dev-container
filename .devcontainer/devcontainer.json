@@ -18,7 +18,33 @@
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
 		"ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {},
 		"ghcr.io/jayree/devcontainer-features/sf-autocomplete:1": {}
-	}
+	},
+
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+				"prettier.configPath": "/workspaces/dotfiles/.prettierrc"
+			},
+			"extensions": [
+				"usernamehw.errorlens",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"christian-kohler.npm-intellisense",
+				"tonybaloney.vscode-pets",
+				"jock.svg",
+				"waderyan.gitblame",
+				"donjayamanne.githistory",
+				"codezombiech.gitignore",
+				"wakatime.vscode-wakatime",
+				"eamodio.gitlens",
+				"wix.vscode-import-cost",
+				"ms-azuretools.vscode-docker",
+				"ms-vscode.vscode-typescript-next"
+			]
+		}
+}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
